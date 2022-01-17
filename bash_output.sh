@@ -59,3 +59,23 @@ $ npm test
 
 
   2 passing (5ms)
+
+  # Test run after testing both bounds
+  $ npm test
+
+> learn-mocha-intro-start@1.0.0 test /home/ccuser/workspace/learn-mocha-learn-mocha-rooster-regulation
+> mocha test/**/*_test.js
+
+
+
+  Rooster
+    announceDawn
+      ✓ returns a rooster call
+    timeAtDawn
+      ✓ returns its argument as a string
+      ✓ throws an error if passed a number less than 0
+      ✓ throws an error if passed a number greater than 23
+
+
+  4 passing (6ms)
+  
