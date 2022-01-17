@@ -42,3 +42,20 @@ $ npm test
 
 
   1 passing (6ms)
+
+# Test run after second test
+$ npm test
+
+> learn-mocha-intro-start@1.0.0 test /home/ccuser/workspace/learn-mocha-learn-mocha-rooster-regulation
+> mocha test/**/*_test.js
+
+
+
+  Rooster
+    announceDawn
+      ✓ returns a rooster call
+    timeAtDawn
+      ✓ returns its argument as a string
+
+
+  2 passing (5ms)
