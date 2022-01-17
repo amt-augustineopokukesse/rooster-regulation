@@ -1,6 +1,4 @@
 # Rooster Regulation
-
-A! It’s up to you to write them.
 > In this project I wrote the tests for an experimental rooster object that was developed without any test.
 
 > Note: See bash_output.sh file to see output of tests.
